@@ -60,7 +60,7 @@ public class HospitalManagementSystem {
 
         Patient patient = new Patient(database.getNextPatientId(), name, dob, contactInfo);
         System.out.println("Patient registered successfully with ID: " + patient.getId());
-    }
+    } 
 
     private static void appointmentScheduling() {
         System.out.println();
